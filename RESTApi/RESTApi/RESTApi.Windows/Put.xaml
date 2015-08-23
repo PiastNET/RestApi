@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="RESTApi.Put"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RESTApi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <TextBox x:Name="FirstBox" HorizontalAlignment="Left" Margin="294,78,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="204"/>
+    <TextBox x:Name="SurnameBox" HorizontalAlignment="Left" Margin="294,139,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="204"/>
+    <TextBox x:Name="BirthBox" HorizontalAlignment="Left" Margin="294,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="204"/>
+    <Button Click="ButtonBase_OnClick" Content="Button" HorizontalAlignment="Left" Margin="291,255,0,0" VerticalAlignment="Top" Width="210"/>
+
+  </Grid>
+</Page>
